@@ -11,6 +11,39 @@
       "domains": ["cdn.example.com"],
       "sha256": "b6ceca634e0798da059661ecd98c23946f0f642d9f8a65710dadf1ebc7c2d0fc",
       "minApp": "1.0.0"
+    },
+    {
+      "key": "mangadex.org",
+      "name": "MangaDex",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": ["manga"],
+      "capabilities": ["search", "comic", "explore"],
+      "domains": ["api.mangadex.org", "uploads.mangadex.org", "mangadex.org"],
+      "sha256": "fc19d248ace6813d32612d9e92158de7482511ed92b86faf2d32650eaa56ea20",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "dmzj.com",
+      "name": "动漫之家",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": ["manga"],
+      "capabilities": ["search", "comic", "explore", "settings", "htmlHelper", "imageLoad"],
+      "domains": ["m.dmzj.com"],
+      "sha256": "0d73a22c09edce4e2084a024a277bce148701245bcab8d23f4462b053e1764b8",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "royalroad.com",
+      "name": "RoyalRoad",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": ["novel"],
+      "capabilities": ["search", "novel", "novelChapter", "htmlHelper"],
+      "domains": ["royalroad.com", "www.royalroad.com"],
+      "sha256": "b47d0b894cf7e5330558095442fa7e5232c0669906958ead7668205d985ac7ec",
+      "minApp": "1.0.0"
     }
   ]
 }
