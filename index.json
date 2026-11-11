@@ -1,4 +1,16 @@
 {
   "version": 1,
-  "sources": []
+  "sources": [
+    {
+      "key": "com.example.v4demo",
+      "name": "v4 演示源",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": ["manga", "novel"],
+      "capabilities": ["search", "comic", "novel", "novelChapter", "htmlHelper", "settings", "translation", "imageLoad"],
+      "domains": ["cdn.example.com"],
+      "sha256": "b6ceca634e0798da059661ecd98c23946f0f642d9f8a65710dadf1ebc7c2d0fc",
+      "minApp": "1.0.0"
+    }
+  ]
 }
