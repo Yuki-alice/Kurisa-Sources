@@ -78,7 +78,7 @@
     {
       "key": "royalroad.com",
       "name": "RoyalRoad",
-      "filename": "royalroad.com.js",
+      "filename": "royalroad.com.rules.json",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -86,17 +86,15 @@
       ],
       "capabilities": [
         "search",
-        "novel",
-        "novelChapter",
-        "htmlHelper"
+        "novel"
       ],
       "domains": [
         "royalroad.com",
         "www.royalroad.com"
       ],
-      "sha256": "b47d0b894cf7e5330558095442fa7e5232c0669906958ead7668205d985ac7ec",
+      "sha256": "46ee7fa6f6a706756177ce4a40d7f38f5119f9b4544cfde1626223febf89ff18",
       "minApp": "1.0.0",
-      "format": "js/v1"
+      "format": "rules/v1"
     },
     {
       "key": "gufengmh.com",

@@ -1,0 +1,30 @@
+{
+  "format": "rules/v1",
+  "key": "template.rules",
+  "name": "Template Rules (rename me)",
+  "version": "0.1.0",
+  "kind": ["manga"],
+  "domains": ["example.invalid"],
+  "baseUrl": "https://example.invalid/",
+  "search": {
+    "request": { "method": "GET", "url": "/search?q=@keyword&page=@page" },
+    "mode": "html",
+    "list": ".item",
+    "fields": {
+      "id": "a@href | fileName",
+      "title": "a@text | trim",
+      "cover": "img@data-src | img@src | absUrl"
+    },
+    "pagination": { "maxPage": "auto" }
+  },
+  "detail": {
+    "request": { "url": "/comic/@id" },
+    "mode": "html",
+    "title": "h1@text",
+    "cover": ".cover img@src | absUrl",
+    "chapters": { "list": "#chapter-list a", "id": "@href | fileName", "title": "@text | trim" }
+  },
+  "content": {
+    "images": { "list": "#chapter-images img", "value": "@data-src | @src | absUrl" }
+  }
+}

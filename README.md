@@ -8,8 +8,10 @@
 
 - `scripts/<key>.js`：js/v1 源（`class X extends ComicSource` + `// ==SourceScript==` 头块）。
 - `scripts/<key>.rules.json`：rules/v1 源（纯 JSON 规则包，无 JS 引擎参与；`format: "rules/v1"`）。
-  规则仅支持 HTML + CSS 选择器子集（search/detail/content）；登录、签名参数、加密章节、
-  图片解密、多页拼合一律用 js/v1（见 `SOURCE-PACKAGE.md` D-2）。
+  规则仅支持 HTML + CSS 选择器子集（search/detail/content），且无 explore 与简介字段；
+  登录、签名参数、加密章节、图片解密、多页拼合、需要简介/探索页的站点一律用 js/v1
+  （见主仓 `docs/plugin-system/SOURCE-PACKAGE.md` D-2）。仅同时满足以上约束的纯 HTML 源
+  才可转 rules（示例见 `scripts/royalroad.com.rules.json`）。
 - `scripts/_template.source.js`：唯一新源模板（漫画/小说二选一，删段即得；apiVersion 4）。
 - `index.json`：源索引（`filename` 与 `format` 必填；sha256 与文件字节一致）。
 - `index.schema.json`：索引结构校验（与引擎 `ContractPolicy.validateIndex` 对齐）。

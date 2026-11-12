@@ -1,0 +1,32 @@
+{
+  "format": "rules/v1",
+  "key": "royalroad.com",
+  "name": "RoyalRoad",
+  "version": "1.0.0",
+  "kind": ["novel"],
+  "domains": ["royalroad.com", "www.royalroad.com"],
+  "baseUrl": "https://www.royalroad.com/",
+  "search": {
+    "request": { "method": "GET", "url": "/fictions/search?page=@page&title=@keyword" },
+    "mode": "html",
+    "list": ".fiction-list-item",
+    "fields": {
+      "id": ".fiction-title a@href",
+      "title": ".fiction-title a@text | .fiction-title a@href | trim",
+      "cover": "img@src"
+    },
+    "pagination": { "maxPage": "1" }
+  },
+  "detail": {
+    "request": { "url": "@id" },
+    "mode": "html",
+    "title": "h1@text",
+    "cover": ".cover-image-container img@src",
+    "chapters": {
+      "list": "#chapters .chapter-row",
+      "id": "a@href",
+      "title": "a@text | a@href | trim"
+    }
+  },
+  "content": { "text": { "select": ".chapter-content", "clean": true } }
+}
