@@ -6,9 +6,23 @@
       "name": "v4 演示源",
       "version": "1.0.0",
       "apiVersion": 4,
-      "kind": ["manga", "novel"],
-      "capabilities": ["search", "comic", "novel", "novelChapter", "htmlHelper", "settings", "translation", "imageLoad"],
-      "domains": ["cdn.example.com"],
+      "kind": [
+        "manga",
+        "novel"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "novel",
+        "novelChapter",
+        "htmlHelper",
+        "settings",
+        "translation",
+        "imageLoad"
+      ],
+      "domains": [
+        "cdn.example.com"
+      ],
       "sha256": "b6ceca634e0798da059661ecd98c23946f0f642d9f8a65710dadf1ebc7c2d0fc",
       "minApp": "1.0.0"
     },
@@ -17,9 +31,19 @@
       "name": "MangaDex",
       "version": "1.0.0",
       "apiVersion": 4,
-      "kind": ["manga"],
-      "capabilities": ["search", "comic", "explore"],
-      "domains": ["api.mangadex.org", "uploads.mangadex.org", "mangadex.org"],
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore"
+      ],
+      "domains": [
+        "api.mangadex.org",
+        "uploads.mangadex.org",
+        "mangadex.org"
+      ],
       "sha256": "fc19d248ace6813d32612d9e92158de7482511ed92b86faf2d32650eaa56ea20",
       "minApp": "1.0.0"
     },
@@ -28,9 +52,20 @@
       "name": "动漫之家",
       "version": "1.0.0",
       "apiVersion": 4,
-      "kind": ["manga"],
-      "capabilities": ["search", "comic", "explore", "settings", "htmlHelper", "imageLoad"],
-      "domains": ["m.dmzj.com"],
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "m.dmzj.com"
+      ],
       "sha256": "0d73a22c09edce4e2084a024a277bce148701245bcab8d23f4462b053e1764b8",
       "minApp": "1.0.0"
     },
@@ -39,10 +74,90 @@
       "name": "RoyalRoad",
       "version": "1.0.0",
       "apiVersion": 4,
-      "kind": ["novel"],
-      "capabilities": ["search", "novel", "novelChapter", "htmlHelper"],
-      "domains": ["royalroad.com", "www.royalroad.com"],
+      "kind": [
+        "novel"
+      ],
+      "capabilities": [
+        "search",
+        "novel",
+        "novelChapter",
+        "htmlHelper"
+      ],
+      "domains": [
+        "royalroad.com",
+        "www.royalroad.com"
+      ],
       "sha256": "b47d0b894cf7e5330558095442fa7e5232c0669906958ead7668205d985ac7ec",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "gufengmh.com",
+      "name": "古风漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "m.gufengmh.com"
+      ],
+      "sha256": "3cc1ac7f5ee6512375bb26736efc1699dc5b31e0a79d2ddb1012c43be0089f36",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "haoduoman.com",
+      "name": "好多漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "category",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.haoduoman.com",
+        "m.haoduoman.com",
+        "img.haoduoman.com"
+      ],
+      "sha256": "dee7235eb5f6c82f77522576f73ca67662f00d9ce0ba3e2cad778e91cbb414d2",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "wnmtl.org",
+      "name": "Wnmtl",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "novel"
+      ],
+      "capabilities": [
+        "search",
+        "novel",
+        "novelChapter",
+        "settings",
+        "htmlHelper"
+      ],
+      "domains": [
+        "api.mystorywave.com",
+        "wnmtl.com",
+        "www.wnmtl.com"
+      ],
+      "sha256": "ea891bbb2d3932e5d67c7c07a963788c01c0e7ea8ad9663c7b68469a7f488523",
       "minApp": "1.0.0"
     }
   ]
