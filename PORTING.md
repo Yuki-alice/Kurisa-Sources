@@ -87,9 +87,9 @@
 
 | 上游文件 | 源名 | 状态 | 仓库 key |
 |---|---|---|---|
-| bilinovel.com.js | 哔哩轻小说 | ⬜ 待移植 | — |
+| bilinovel.com.js | 哔哩轻小说 | ⛔ 不移植 | ⛔ 不移植：核心为字体混淆字符映射表（约 3600 条，数据级复制违反“干净实现”纪律；重造需逆向站点字体），另含多页章节拼装与自定义 $api |
 | bqg.cc.js | 笔趣阁 | ✅ 已移植 | `bqg.cc` |
-| moe.wol.wenku8.js | 轻小说文库 | ⬜ 待移植 | — |
+| moe.wol.wenku8.js | 轻小说文库 | ⛔ 不移植 | ⛔ 不移植：依赖第三方中转 miru-wenku8.wol.moe（站外未知供应链），并内嵌 CryptoJS + fast-xml-parser；直连需自研加密请求体与 XML 解析 |
 | mydramanovel.com.js | MyDramaNovel | ✅ 已移植 | `mydramanovel.com` |
 | ren.0u0.miru.mfxs.js | 免费小说网 | ✅ 已移植 | `mfxs.www493d` |
 | royalroad.com.js | RoyalRoad | ✅ 已移植 | `royalroad.com` |
