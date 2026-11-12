@@ -291,6 +291,270 @@
       ],
       "sha256": "c873575593ab4398d4cd4dc9d903dda59a7e08b854d8da1b4297c768a78253de",
       "minApp": "1.0.0"
+    },
+    {
+      "key": "bainianmh2",
+      "name": "百年漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "m.bnman.net"
+      ],
+      "sha256": "087dcc48468b8e180578b65d729acd5e5c5c10a9f71b22a4c236592d5938e417",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "dashumanhua",
+      "name": "大树漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.dashumanhua.com"
+      ],
+      "sha256": "038549d1727de1e17f3a467eda83336e11dcf912f0986e11ae8ac7843b8ebb8e",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "manhuaguitw",
+      "name": "漫画柜繁体",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "tw.manhuagui.com"
+      ],
+      "sha256": "757e6b471ee797816550147d6ef82b6133b0bb873391a984f79418fb253c7c02",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "manhuayu",
+      "name": "漫画鱼",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.manhuayu88.com"
+      ],
+      "sha256": "febeb3d8b5ea00edaf894229b52bebbf50e154909ccc4ecbc648ccef0f480c49",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "migudm",
+      "name": "咪咕动漫",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "migudm.cn"
+      ],
+      "sha256": "cc587a072fbbd6b9f76168739c6e5bf0679b49a64d62f879a306625e44ec021e",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "ttkmh",
+      "name": "天天看漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.ttkmh.com"
+      ],
+      "sha256": "8d6b0b765e804d975314a309f6b32e4e7cd9b62c8a6bbf5b9455f9bb244c48fa",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "u17",
+      "name": "有妖气",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "u17.com"
+      ],
+      "sha256": "f497153ee4776151242501efb149f61795fb382b1473e629373908699c61b78c",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "bilimanga",
+      "name": "哔哩哔哩漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.bilimanga.net"
+      ],
+      "sha256": "6e51a76d0f5e7dfa345cafbc6c4386221518d92486188124922b51911e21a352",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "cartoonmad",
+      "name": "CartoonMad",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.cartoonmad.com"
+      ],
+      "sha256": "e894bce5c30554888b2ff9e3bd862ca7afb353aa11c024a15a314371973ca783",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "feixuemh",
+      "name": "飞雪漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.feixuemh.com"
+      ],
+      "sha256": "3d3046b6b4da240aee15d659f66d160db68d9dc22219fdc7170598df0000c639",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "guomanwang",
+      "name": "国漫网",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.guomanwang.com"
+      ],
+      "sha256": "b985c815c2079090d9b7687e0fd6219751f5ddd1eaa5575d29b0bd8deb8f86f4",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "hhxxee",
+      "name": "HHXXEE",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.hhxxee.com"
+      ],
+      "sha256": "eae6c2db01f7becc6a712481cef41dfb14da2f29516fc61d0242d70a5a9fcd18",
+      "minApp": "1.0.0"
     }
   ]
 }
