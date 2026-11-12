@@ -88,10 +88,10 @@
 | 上游文件 | 源名 | 状态 | 仓库 key |
 |---|---|---|---|
 | bilinovel.com.js | 哔哩轻小说 | ⬜ 待移植 | — |
-| bqg.cc.js | 笔趣阁 | ⬜ 待移植 | — |
+| bqg.cc.js | 笔趣阁 | ✅ 已移植 | `bqg.cc` |
 | moe.wol.wenku8.js | 轻小说文库 | ⬜ 待移植 | — |
-| mydramanovel.com.js | MyDramaNovel | ⬜ 待移植 | — |
-| ren.0u0.miru.mfxs.js | 免费小说网 | ⬜ 待移植 | — |
+| mydramanovel.com.js | MyDramaNovel | ✅ 已移植 | `mydramanovel.com` |
+| ren.0u0.miru.mfxs.js | 免费小说网 | ✅ 已移植 | `mfxs.www493d` |
 | royalroad.com.js | RoyalRoad | ✅ 已移植 | `royalroad.com` |
 | vn.tangthuvien.js | Tàng thư viện | ⬜ 待移植 | — |
 | wnmtl.org.js | Wnmtl | ✅ 已移植 | `wnmtl.org` |

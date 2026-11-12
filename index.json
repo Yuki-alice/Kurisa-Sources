@@ -555,6 +555,70 @@
       ],
       "sha256": "eae6c2db01f7becc6a712481cef41dfb14da2f29516fc61d0242d70a5a9fcd18",
       "minApp": "1.0.0"
+    },
+    {
+      "key": "bqg.cc",
+      "name": "笔趣阁",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "novel"
+      ],
+      "capabilities": [
+        "search",
+        "novel",
+        "novelChapter",
+        "settings",
+        "htmlHelper"
+      ],
+      "domains": [
+        "m.bi17.cc"
+      ],
+      "sha256": "802ea99a3a7bdc39c59958743f09952eece15d1de742991ccfc06b14231a0274",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "mydramanovel.com",
+      "name": "MyDramaNovel",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "novel"
+      ],
+      "capabilities": [
+        "search",
+        "novel",
+        "novelChapter",
+        "htmlHelper",
+        "explore"
+      ],
+      "domains": [
+        "mydramanovel.com",
+        "www.mydramanovel.com"
+      ],
+      "sha256": "f2bf5874d8f6cd42ac55fc307b61f366628c37680f6d532171ccf4953c4653c8",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "mfxs.www493d",
+      "name": "免费小说网",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "novel"
+      ],
+      "capabilities": [
+        "search",
+        "novel",
+        "novelChapter",
+        "explore",
+        "htmlHelper"
+      ],
+      "domains": [
+        "www.493d.com"
+      ],
+      "sha256": "3d010ff3b5469e33402917c61fde810f0caed1584f2ae2641d56f7892663a95e",
+      "minApp": "1.0.0"
     }
   ]
 }
