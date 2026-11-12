@@ -619,6 +619,49 @@
       ],
       "sha256": "3d010ff3b5469e33402917c61fde810f0caed1584f2ae2641d56f7892663a95e",
       "minApp": "1.0.0"
+    },
+    {
+      "key": "tangthuvien.vn",
+      "name": "Tàng thư viện",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "novel"
+      ],
+      "capabilities": [
+        "search",
+        "novel",
+        "novelChapter",
+        "explore",
+        "htmlHelper"
+      ],
+      "domains": [
+        "truyen.tangthuvien.vn"
+      ],
+      "sha256": "0d920174073724504655e9788325879445419125a7aa6fb27e0efec0f65b149e",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "wtr-lab.com",
+      "name": "WTR-LAB",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "novel"
+      ],
+      "capabilities": [
+        "search",
+        "novel",
+        "novelChapter",
+        "explore",
+        "htmlHelper"
+      ],
+      "domains": [
+        "wtr-lab.com",
+        "www.wtr-lab.com"
+      ],
+      "sha256": "d5528004bba4719e65d58787a80ca65ba2b8860f9207c01adc1481d3c08ad501",
+      "minApp": "1.0.0"
     }
   ]
 }
