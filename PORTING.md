@@ -41,47 +41,47 @@
 | haoduoman.js | 好多漫画 | ✅ 已移植 | `haoduoman.com` |
 | haoduoman2.js | 好多漫画 | ➖ 已去重 | 与 haoduoman.com 同站 |
 | hhxxee.js | HHXXEE | ✅ 已移植 | `hhxxee` |
-| hotmanga.js | 热辣漫画备用 | ⬜ 待移植 | — |
-| ikanmantw.js | 爱看漫繁体 | ⬜ 待移植 | — |
+| hotmanga.js | 热辣漫画备用 | ➖ 已去重 | 与官方 热辣漫画 同站（备用域名） |
+| ikanmantw.js | 爱看漫繁体 | ➖ 已去重 | 与 manhuaguitw 同站（tw.manhuagui.com） |
 | jisumh.js | 极速漫画 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | jpm1234.js | JPM1234 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | kanman.js | 看漫画 | ✅ 已移植 | `kanman.com` |
-| klmanga.js | KL漫画 | ⬜ 待移植 | — |
+| klmanga.js | KL漫画 | ✅ 已移植 | `klmanga` |
 | mangabz.js | Mangabz | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
-| mangaread.js | MangaRead | ⬜ 待移植 | — |
-| manhuadb.js | 漫画DB | ⬜ 待移植 | — |
+| mangaread.js | MangaRead | ✅ 已移植 | `mangaread` |
+| manhuadb.js | 漫画DB | ✅ 已移植 | `manhuadb` |
 | manhuaguitw.js | 漫画柜繁体 | ✅ 已移植 | `manhuaguitw` |
-| manhuatai.js | 漫画台 | ⬜ 待移植 | — |
+| manhuatai.js | 漫画台 | ➖ 已去重 | 与 kanman.com 同站（www.kanman.com） |
 | manhuayu.js | 漫画鱼 | ✅ 已移植 | `manhuayu` |
 | mh160.js | 漫画160 | ✅ 已移植 | `mh160` |
-| mh36.js | 36漫画 | ⬜ 待移植 | — |
-| mh360.js | 360漫画 | ⬜ 待移植 | — |
+| mh36.js | 36漫画 | ✅ 已移植 | `mh36` |
+| mh360.js | 360漫画 | ✅ 已移植 | `mh360` |
 | mh522.js | 522漫画 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | mh57.js | MH57 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | mh92.js | 92漫画 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | migudm.js | 咪咕动漫 | ✅ 已移植 | `migudm` |
-| mkzhan.js | 快看漫画 | ⬜ 待移植 | — |
-| mkzhanw.js | MKZHANW | ⬜ 待移植 | — |
-| mumumh.js | 梦游漫画 | ⬜ 待移植 | — |
-| mxqf.js | MX趣 | ⬜ 待移植 | — |
+| mkzhan.js | 快看漫画 | ✅ 已移植 | `mkzhan` |
+| mkzhanw.js | MKZHANW | ✅ 已移植 | `mkzhanw` |
+| mumumh.js | 梦游漫画 | ✅ 已移植 | `mumumh` |
+| mxqf.js | MX趣 | ✅ 已移植 | `mxqf` |
 | pufeimh.js | 扑飞漫画 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
-| qimanwu.js | 奇漫画 | ⬜ 待移植 | — |
-| qimiaomh.js | 奇妙漫画 | ⬜ 待移植 | — |
-| roumh.js | Rou韩漫 | ⬜ 待移植 | — |
+| qimanwu.js | 奇漫画 | ✅ 已移植 | `qimanwu` |
+| qimiaomh.js | 奇妙漫画 | ✅ 已移植 | `qimiaomh` |
+| roumh.js | Rou韩漫 | ✅ 已移植 | `roumh` |
 | rumanhua.js | 入漫画 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
-| sfacg.js | SF轻小说 | ⬜ 待移植 | — |
-| sisimanhua.js | 西西漫画 | ⬜ 待移植 | — |
+| sfacg.js | SF轻小说 | ✅ 已移植 | `sfacg` |
+| sisimanhua.js | 西西漫画 | ✅ 已移植 | `sisimanhua` |
 | soudongman.js | 搜动漫 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | ttkmh.js | 天天看漫画 | ✅ 已移植 | `ttkmh` |
 | u17.js | 有妖气 | ✅ 已移植 | `u17` |
-| xianman123.js | 仙漫网 | ⬜ 待移植 | — |
+| xianman123.js | 仙漫网 | ✅ 已移植 | `xianman123` |
 | xmanhua.js | X漫画 | ⬜ 待移植 | — |
 | xmanhua2.js | X漫画备用 | ⬜ 待移植 | — |
-| yibenmanhua.js | 一本漫画 | ⬜ 待移植 | — |
-| youdm.js | 优动漫 | ⬜ 待移植 | — |
+| yibenmanhua.js | 一本漫画 | ✅ 已移植 | `yibenmanhua` |
+| youdm.js | 优动漫 | ✅ 已移植 | `youdm` |
 | yymanhua.js | YY漫画 | ⬜ 待移植 | — |
 | yymanhua2.js | YY漫画备用 | ⬜ 待移植 | — |
-| zymk.js | 知音漫客 | ⬜ 待移植 | — |
+| zymk.js | 知音漫客 | ✅ 已移植 | `zymk` |
 
 ## 小说（9）
 
