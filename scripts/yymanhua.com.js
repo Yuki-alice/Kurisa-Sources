@@ -131,7 +131,7 @@ class Yymanhua extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.yymanhua.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

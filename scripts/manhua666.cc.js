@@ -131,7 +131,7 @@ class Manhuadb extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.manhua666.cc/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

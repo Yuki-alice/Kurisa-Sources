@@ -24,8 +24,9 @@
       "domains": [
         "cdn.example.com"
       ],
-      "sha256": "b6ceca634e0798da059661ecd98c23946f0f642d9f8a65710dadf1ebc7c2d0fc",
-      "minApp": "1.0.0"
+      "sha256": "20cd52c3b4a53dd1df528a1c109808608d6d6bb4624c9b38d18859e4c261513c",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mangadex.org",
@@ -46,8 +47,9 @@
         "uploads.mangadex.org",
         "mangadex.org"
       ],
-      "sha256": "fc19d248ace6813d32612d9e92158de7482511ed92b86faf2d32650eaa56ea20",
-      "minApp": "1.0.0"
+      "sha256": "99ba19add78d6f09b403988c8708920f6ae13926bb47db65ed1fbefec5344603",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "dmzj.com",
@@ -69,8 +71,9 @@
       "domains": [
         "m.dmzj.com"
       ],
-      "sha256": "865ffae8226fdd30ed20fb942fcfa5839abf7fba97e9b8224da32610b4acba8e",
-      "minApp": "1.0.0"
+      "sha256": "a2d535d6e3e5adda717a83df617600f4002ac6d867ef4dd8fd7c6c3d7dda7914",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "royalroad.com",
@@ -92,7 +95,8 @@
         "www.royalroad.com"
       ],
       "sha256": "b47d0b894cf7e5330558095442fa7e5232c0669906958ead7668205d985ac7ec",
-      "minApp": "1.0.0"
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "gufengmh.com",
@@ -114,8 +118,9 @@
       "domains": [
         "m.gufengmh.com"
       ],
-      "sha256": "64a8976cd2e0ca04f585be3e962138de9c55fe406d96ee7045adbef132861ced",
-      "minApp": "1.0.0"
+      "sha256": "7bdfabb665cf22b4738acbaf47a685fbbce6302d267e4604d01d3ead08de61d3",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "haoduoman.com",
@@ -140,8 +145,9 @@
         "m.haoduoman.com",
         "img.haoduoman.com"
       ],
-      "sha256": "dee7235eb5f6c82f77522576f73ca67662f00d9ce0ba3e2cad778e91cbb414d2",
-      "minApp": "1.0.0"
+      "sha256": "29cc85584ff0112a00b1f506dbcf704be0ef8e002850db89245ea92e1a34055b",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "wnmtl.org",
@@ -165,7 +171,8 @@
         "www.wnmtl.com"
       ],
       "sha256": "ea891bbb2d3932e5d67c7c07a963788c01c0e7ea8ad9663c7b68469a7f488523",
-      "minApp": "1.0.0"
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "acgn.cc",
@@ -187,8 +194,9 @@
       "domains": [
         "comic.acgn.cc"
       ],
-      "sha256": "6fd725310793abb28bf859f0712842707daaed7cf768bcb8ddbc989bf62d6f6f",
-      "minApp": "1.0.0"
+      "sha256": "e3f59a0b9b3626266ca6dee2f03d19b3a205e80e119118b7d815ea48585f833e",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "bukamh.org",
@@ -210,8 +218,9 @@
       "domains": [
         "www.bukamh.org"
       ],
-      "sha256": "9bb89d03000b15ac66d775fefb95d3bf4fed2c1c6b5949ac39a107d2cbaab026",
-      "minApp": "1.0.0"
+      "sha256": "cdd35458e4c3c39be298b938f6be6559a95865a60cd1306a94bd9be047b49148",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "colamanga.com",
@@ -233,8 +242,9 @@
       "domains": [
         "www.colamanga.com"
       ],
-      "sha256": "99a3d9220f469eeb5702a7106fa7ecd7788e9065023103b2e5f080660bfd9c21",
-      "minApp": "1.0.0"
+      "sha256": "c7438e47da3358d080d9f2f3b2f7ca137e400302f2738b844f328ae41d59f0e9",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "dingmanhua.com",
@@ -256,8 +266,9 @@
       "domains": [
         "www.dingmanhua.com"
       ],
-      "sha256": "b72e51132e9e8b940dd67e50ca8ec20c569c13a2145fbaa1780a35a7aaedfddb",
-      "minApp": "1.0.0"
+      "sha256": "13e52466eb0cd99d73b7e776e41c5e024f77c9dae17d0a6af4c89f7fc33f15e5",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "dogemanga.com",
@@ -279,8 +290,9 @@
       "domains": [
         "dogemanga.com"
       ],
-      "sha256": "37f49ee851f864806f5b698bd184b9acf94507a56592b130dfed2836cad28327",
-      "minApp": "1.0.0"
+      "sha256": "b005329cdb67d3e93a1f79465ba177a82bde14df99635c052c59521dd23e6b6f",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "dumanwu.org",
@@ -302,8 +314,9 @@
       "domains": [
         "www.dumanwu.org"
       ],
-      "sha256": "0e00cad5908fdc3068449e67d030ffaf2a4e276499807967812199c9907242d6",
-      "minApp": "1.0.0"
+      "sha256": "a5c891554a6082d860e34acd4446987fa177b1159f30b06a82c2d84901136124",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "dashumanhua.com",
@@ -325,8 +338,9 @@
       "domains": [
         "www.dashumanhua.com"
       ],
-      "sha256": "2fcfca8b6cfacb9ce7f363c1cbd14430371ec6f48916fbaadda38971dfd83023",
-      "minApp": "1.0.0"
+      "sha256": "296d20c469aa08d0ea3b51043e930127624cd37364837d8ad6a2df5cb921f5f8",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "manhuagui.com",
@@ -348,8 +362,9 @@
       "domains": [
         "tw.manhuagui.com"
       ],
-      "sha256": "f20b1a32099430feb772133862f5734216040c2721d2d30772bf4c3f9311c6f9",
-      "minApp": "1.0.0"
+      "sha256": "f708e9582a66806937e8f5d084d5bcf9b26372cc9f28f2ed40c9457fcc1bd986",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "manhuayu88.com",
@@ -371,8 +386,9 @@
       "domains": [
         "www.manhuayu88.com"
       ],
-      "sha256": "ab5e0513ec4a30a320c0422419bbe8c7bb03a3a29660dd5635ace57af272383b",
-      "minApp": "1.0.0"
+      "sha256": "8d1dfa69687612957b52e8f90a418b39f229876b73646c82dff94a7f665dde1c",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "migudm.cn",
@@ -394,8 +410,9 @@
       "domains": [
         "migudm.cn"
       ],
-      "sha256": "619afaa3e4329e22210a9428d8a89587f2a51d57362c796cd263517e09e66bba",
-      "minApp": "1.0.0"
+      "sha256": "3755e3566b191bc671f54511f579ffad499fd971685731bb5ce7d8286840149e",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "ttkmh.com",
@@ -417,8 +434,9 @@
       "domains": [
         "www.ttkmh.com"
       ],
-      "sha256": "47edc9b7a889759a49543e147cdd891cac270741c03824e959d1c3b654163eeb",
-      "minApp": "1.0.0"
+      "sha256": "0c861deb0e17d71774c2ae4cae0dcc0444a8410ca76f65e76c60fdfdf14e0d89",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "u17.com",
@@ -440,8 +458,9 @@
       "domains": [
         "u17.com"
       ],
-      "sha256": "197a4b95cc0c8bdb5a76cb1ff6ab0eb703f2ef71abc0b93a10a463ffb9a2544b",
-      "minApp": "1.0.0"
+      "sha256": "07537d8636fc21c92a6e156123027978b37d44b16003b472f54d5faea9dec1d1",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "bilimanga.net",
@@ -463,8 +482,9 @@
       "domains": [
         "www.bilimanga.net"
       ],
-      "sha256": "df98bda521bb41a77965e022d3d838c78c5fcbc0e01728523c4f608652413136",
-      "minApp": "1.0.0"
+      "sha256": "947ef5e40f44d167804a35f56abbc4944642749564508c44e86d4747614b7ab9",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "cartoonmad.com",
@@ -486,8 +506,9 @@
       "domains": [
         "www.cartoonmad.com"
       ],
-      "sha256": "bf8234013e5904eed7e5174e064ae2907b9a003103524189b88f9622153cc1fc",
-      "minApp": "1.0.0"
+      "sha256": "a782f0a4788b17dce5da643f55c588c10d1b95500296b5b93170d64c04773c13",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "feixuemh.com",
@@ -509,8 +530,9 @@
       "domains": [
         "www.feixuemh.com"
       ],
-      "sha256": "99c4e9796bb258eaaf6ec1bfc7b805609173702c1fc5abc7fb9c82dc003d5999",
-      "minApp": "1.0.0"
+      "sha256": "c6f58c6994cd6b99fbfc593f7ba3c939f90a9ef1e4e5c8a6c8481c8dbf3c6660",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "guomanwang.com",
@@ -532,8 +554,9 @@
       "domains": [
         "www.guomanwang.com"
       ],
-      "sha256": "c6d7b7b3acff26ed752a8d03cfb1153e9565e893a2ecbc7b7039bf4d72d11992",
-      "minApp": "1.0.0"
+      "sha256": "82ad72bb27804d3bfb4ec450999e9c3d8263d4e983bd52bf465d8ddd450d9978",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "hhxxee.com",
@@ -555,8 +578,9 @@
       "domains": [
         "www.hhxxee.com"
       ],
-      "sha256": "72b760cbc230bd4fb2d560e65eafe57a75c73796c86f638f8855b47404ffb97e",
-      "minApp": "1.0.0"
+      "sha256": "1e1b99204e72d284ff297bb98189832ab029547826f6c2e895f3fd3227b49c8a",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "bqg.cc",
@@ -578,7 +602,8 @@
         "m.bi17.cc"
       ],
       "sha256": "802ea99a3a7bdc39c59958743f09952eece15d1de742991ccfc06b14231a0274",
-      "minApp": "1.0.0"
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mydramanovel.com",
@@ -601,7 +626,8 @@
         "www.mydramanovel.com"
       ],
       "sha256": "ef3bb2f421195fc71dd13e6e431f4919454904fc13b97d60e65888d73e719baa",
-      "minApp": "1.0.0"
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mfxs.www493d",
@@ -623,7 +649,8 @@
         "www.493d.com"
       ],
       "sha256": "3d010ff3b5469e33402917c61fde810f0caed1584f2ae2641d56f7892663a95e",
-      "minApp": "1.0.0"
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "tangthuvien.vn",
@@ -645,7 +672,8 @@
         "truyen.tangthuvien.vn"
       ],
       "sha256": "0d920174073724504655e9788325879445419125a7aa6fb27e0efec0f65b149e",
-      "minApp": "1.0.0"
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "wtr_lab.com",
@@ -668,7 +696,8 @@
         "www.wtr-lab.com"
       ],
       "sha256": "1e4ef45d00bfbd489260d0d92ead29e34d4168d738c9625f32fba3102001457b",
-      "minApp": "1.0.0"
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "dm5.com",
@@ -692,8 +721,9 @@
         "www.dm5.com",
         "cdndm5.com"
       ],
-      "sha256": "007d189928839f561be0438147ccb81ceb2e49a95452d603e838a666502aafb3",
-      "minApp": "1.0.0"
+      "sha256": "0c0315159dffb398eb33a78d39a74ba03ece5a72d5214cbd0073ce2a081e5eb7",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "kanman.com",
@@ -717,8 +747,9 @@
         "www.kanman.com",
         "m.kanman.com"
       ],
-      "sha256": "c0a416e2d5f5ad0edda42551485fe57ca7881b492a757877f7e7dceb61bc6abb",
-      "minApp": "1.0.0"
+      "sha256": "9a785826970fecf243302e031a0188df9ed7d8dded396ab3fc6e696d865b60df",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mh160mh.com",
@@ -740,8 +771,9 @@
       "domains": [
         "www.mh160mh.com"
       ],
-      "sha256": "b0b040ccd2932a784d8aa8d6b17e429bb054349278da4c8da69e0dd2ad8d8c12",
-      "minApp": "1.0.0"
+      "sha256": "cf6859663796d9087137a13138705c20e158db288bb755c1366aecd00ecf1b2a",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "klmanga.com",
@@ -763,8 +795,9 @@
       "domains": [
         "klmanga.com"
       ],
-      "sha256": "2ef754df05a897b8ca93d35298439ddee839d85a4ce557a5513c8e0375966d43",
-      "minApp": "1.0.0"
+      "sha256": "aa1f8c9a888fab0973ebf9cb60c2fed62c7443d8575e2b7d07dc3fb7b75602cc",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mangaread.org",
@@ -786,8 +819,9 @@
       "domains": [
         "www.mangaread.org"
       ],
-      "sha256": "7d44fc051bd615f9ec13e5cb3d00c0dacc5d1c88a7ebfaf09bdeecea06f6ea59",
-      "minApp": "1.0.0"
+      "sha256": "1bc74f73867e65898c799cbe44a5c4a68d54978556715577d7194e122a60dc1f",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "manhua666.cc",
@@ -809,8 +843,9 @@
       "domains": [
         "www.manhua666.cc"
       ],
-      "sha256": "f9124728016dbc07d7a8947514c7a4ac1578db2aeccd034760c933fd93037151",
-      "minApp": "1.0.0"
+      "sha256": "25fb20525a8d42f5e344811b1d63b85d69a9ca50000e81ebbc79dedbd9e7bba6",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mh360.site",
@@ -832,8 +867,9 @@
       "domains": [
         "m.100fanwo.com"
       ],
-      "sha256": "45053ea3d8d75400b3aa6e74540346c57df710b7bb5af54de54df1502d308632",
-      "minApp": "1.0.0"
+      "sha256": "f4468e40b34d93bc390263eea5c3e780a0bd25c0a39c4e4489b559f7a16e5af2",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mkzhan.com",
@@ -855,8 +891,9 @@
       "domains": [
         "comic.mkzhan.com"
       ],
-      "sha256": "f3319f216d7719e36dd1268f282f8439fae93843098636ce9e8d28b06e59d91b",
-      "minApp": "1.0.0"
+      "sha256": "e67be3f0aba90a3700e145be68e4a08dd622bc27898a97e3798c3b381b27e390",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mumumh.com",
@@ -878,8 +915,9 @@
       "domains": [
         "www.mumumh.com"
       ],
-      "sha256": "e905af735dbf9753525851e15adce3d08a486e217870f5f65be42eaceccc851a",
-      "minApp": "1.0.0"
+      "sha256": "9e5041190b8a8244067eb6ae7da53b4cc0b51016a8ff26f6a6b99947e1163f31",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mxshm.top",
@@ -901,8 +939,9 @@
       "domains": [
         "www.mxshm.top"
       ],
-      "sha256": "612cea5c011e597086405d7c2a84f6f32dc6faf990fbf5d4c37d5788b9c570c6",
-      "minApp": "1.0.0"
+      "sha256": "f7197f69605ac75961e7ee9e7e37ec667c0b74a5319fd46de8f71afc24c98512",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "qimanwu.org",
@@ -924,8 +963,9 @@
       "domains": [
         "www.qimanwu.org"
       ],
-      "sha256": "50b275b033555ef19f832478d0cc538850eee7c4694000b078f7d8e6343a571e",
-      "minApp": "1.0.0"
+      "sha256": "94771fffad78a48239743982506fb4e3f48d9a2d1476fbfaa5ff13ed51022487",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "qimiaomh.com",
@@ -947,8 +987,9 @@
       "domains": [
         "www.qimiaomh.com"
       ],
-      "sha256": "45a5588a5f8117fde8fc9271be0d4129437595bae0b9aa62b77152517ac782d7",
-      "minApp": "1.0.0"
+      "sha256": "49a45cfc0ecd90a19b0ec2eb3351667b2a091747d238c08b7aa32d029a28e398",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "roumh.com",
@@ -970,8 +1011,9 @@
       "domains": [
         "m.roumh.com"
       ],
-      "sha256": "81a106b8546eb8b9a6c080573d6e9b9c4bc6c88ba8544de55e0b27212cae490f",
-      "minApp": "1.0.0"
+      "sha256": "6c34d52ecbcec1f0067492cf364920d425319f3d579d72b575c33ecaab8c3a75",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "sfacg.com",
@@ -993,8 +1035,9 @@
       "domains": [
         "mm.sfacg.com"
       ],
-      "sha256": "458258d3ff746d890896c5c60409f80fdb7f91360da0ebe4dbcf8f0850a26c2d",
-      "minApp": "1.0.0"
+      "sha256": "e51cea7d431860240d300a9adf4a25427f17274660cbed825fa6930580284828",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "sisimanhua.com",
@@ -1016,8 +1059,9 @@
       "domains": [
         "m.sisimanhua.com"
       ],
-      "sha256": "f15bba8f5357c389dc8b5a51fbfc4917b48c0da0e3b099dffaa34f2163b00a89",
-      "minApp": "1.0.0"
+      "sha256": "a47557e10dd28793cdde77b3289a23d5dc08052dc78e73ccff4b688c842f48e3",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "xianman123.com",
@@ -1039,8 +1083,9 @@
       "domains": [
         "www.xianman123.com"
       ],
-      "sha256": "0b5c837dfe4a56e45688548572ae515132f03abdfcf42a490617acb88632ddf1",
-      "minApp": "1.0.0"
+      "sha256": "2b61af1ed617738c280a3b9adeaf1801a20cc755e891fc8b6dde2f4d0e8c1cff",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "yibenmanhua.com",
@@ -1062,8 +1107,9 @@
       "domains": [
         "www.yibenmanhua.com"
       ],
-      "sha256": "83af801594c433d6fd4e7619baa4cccbe9dd7936b0ff3f203dbff400aef384a5",
-      "minApp": "1.0.0"
+      "sha256": "5892891cf9d282fa3ea615eec141e8955ba18511b8ca12c686c81da94eb1ac50",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "udm123.com",
@@ -1085,8 +1131,9 @@
       "domains": [
         "www.udm123.com"
       ],
-      "sha256": "e8c8755425f92f4ed2154fa47a89be5df38faf8157d08b0181c937770ef262be",
-      "minApp": "1.0.0"
+      "sha256": "254909c0927c60d9f3a6ba1f04159bd63f81a5df45c3602d0c67d286d1bf7d0a",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "zymk.cn",
@@ -1108,8 +1155,9 @@
       "domains": [
         "m.zymk.cn"
       ],
-      "sha256": "e1ac7a777a80d937113b6224ca0f588c75b6d7bd2e38b12cc1fbee3b9ed1e6e5",
-      "minApp": "1.0.0"
+      "sha256": "9c0b83c05ef86c67638f70c52b6917bb51111fa7b121d1095e11bde707b02dfa",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "mh36.site",
@@ -1131,8 +1179,9 @@
       "domains": [
         "www.36mh.org"
       ],
-      "sha256": "db67fc51ef325f0b690bfd4d5773ca2917236d57ef7772f640ffe4debc6cf319",
-      "minApp": "1.0.0"
+      "sha256": "bf17b44c75c3631773a1697d893579f81f693d4d7838bc9a25fb973fab01c4ff",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "bnman.net",
@@ -1158,8 +1207,9 @@
         "cdn.bnman.net",
         "img.bnman.net"
       ],
-      "sha256": "06d438049cec5e82194fd65d717e9cb6ee25227b14ac3cab86d59d3aaeab8e3e",
-      "minApp": "1.0.0"
+      "sha256": "9cd8cb2d714f8ee43924e8c7998e7620ac10b332223a4660b201b50a1ce09128",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "xmanhua.com",
@@ -1181,8 +1231,9 @@
       "domains": [
         "xmanhua.com"
       ],
-      "sha256": "185b9cd77d65266108c8a063ece322135372eee9f88e26c68757c14d18d3585c",
-      "minApp": "1.0.0"
+      "sha256": "030ca69fe8af8765029fb3a0875d3a9c01b7a087c851b5f2b71d2c56ef03a6fe",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     },
     {
       "key": "yymanhua.com",
@@ -1204,8 +1255,9 @@
       "domains": [
         "www.yymanhua.com"
       ],
-      "sha256": "dd0fd50d6f9beb9a00e8970b0f0777302c068bd9d8907aa47c0068da3e26966a",
-      "minApp": "1.0.0"
+      "sha256": "db04eeac31be08c2623a2e487d14dd1287881f5b8d8c075554f1ca3f9644a5d8",
+      "minApp": "1.0.0",
+      "format": "js/v1"
     }
   ]
 }

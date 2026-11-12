@@ -131,7 +131,7 @@ class Sfacg extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://mm.sfacg.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

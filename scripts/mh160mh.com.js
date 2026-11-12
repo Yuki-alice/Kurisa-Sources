@@ -131,7 +131,7 @@ class Mh160 extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.mh160mh.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

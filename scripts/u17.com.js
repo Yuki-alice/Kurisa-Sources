@@ -131,7 +131,7 @@ class U17 extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://u17.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

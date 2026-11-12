@@ -131,7 +131,7 @@ class Feixuemh extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.feixuemh.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

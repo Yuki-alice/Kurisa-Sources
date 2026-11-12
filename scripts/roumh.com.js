@@ -131,7 +131,7 @@ class Roumh extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://m.roumh.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

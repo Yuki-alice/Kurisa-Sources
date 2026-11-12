@@ -131,7 +131,7 @@ class Ttkmh extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.ttkmh.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

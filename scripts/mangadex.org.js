@@ -174,7 +174,8 @@ class MangaDex extends ComicSource {
       const chapters = [];
       let offset = 0;
       const limit = 100;
-      while (true) {
+      // 有界翻页（至多 100 页：API 异常时始终返回满页则兜底退出，避免无界请求）。
+      for (let guard = 0; guard < 100; guard++) {
         const feed = await this.request('/manga/' + id + '/feed', {
           'translatedLanguage[]': ['en', 'zh', 'zh-HK', 'zh-CN'],
           limit: limit,

@@ -1,0 +1,19 @@
+name: Validate
+
+# 对标 Miru 的 "Generage" 工作流：每次推送/PR 自动跑仓库门禁。
+# 引擎侧全量门禁（SourcesRepoContractTest）需主仓检出，默认不跑；
+# 需要时可在 workflow_dispatch 手动触发（见下方注释块）。
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm test

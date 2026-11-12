@@ -160,7 +160,7 @@ class Kanman extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.kanman.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

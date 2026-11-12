@@ -234,7 +234,7 @@ class BainianMh extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://m.bnman.net/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

@@ -131,7 +131,7 @@ class Manhuayu extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.manhuayu88.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

@@ -131,7 +131,7 @@ class Mkzhan extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://comic.mkzhan.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

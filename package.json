@@ -1,0 +1,16 @@
+{
+  "name": "kurisa-sources",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kurisa source warehouse: single-file JS (js/v1) and declarative JSON (rules/v1) sources",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node tools/validate.js",
+    "index": "node tools/mkindex.js",
+    "index:write": "node tools/mkindex.js --write"
+  },
+  "license": "UNLICENSED"
+}

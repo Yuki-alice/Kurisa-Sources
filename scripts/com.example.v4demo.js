@@ -21,7 +21,7 @@ class V4Demo extends ComicSource {
   minAppVersion = '1.0.0'
   apiVersion = 4
   kind = ['manga', 'novel']
-  url = 'https://example.com/sources/v4demo.js'
+  url = 'https://cdn.example.com/sources/v4demo.js'
   domains = ['cdn.example.com']
   capabilities = ['search', 'comic', 'novel', 'novelChapter', 'htmlHelper', 'settings', 'translation', 'imageLoad']
   translation = { 'zh_CN': { 'hello': '你好' } }

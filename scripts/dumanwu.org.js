@@ -131,7 +131,7 @@ class Dumanwuorg extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.dumanwu.org/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

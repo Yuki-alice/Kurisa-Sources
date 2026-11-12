@@ -131,7 +131,7 @@ class Acgncc extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://comic.acgn.cc/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

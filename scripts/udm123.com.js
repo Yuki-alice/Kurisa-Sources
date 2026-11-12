@@ -131,7 +131,7 @@ class Youdm extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.udm123.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

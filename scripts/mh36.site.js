@@ -131,7 +131,7 @@ class Mh36 extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.36mh.org/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

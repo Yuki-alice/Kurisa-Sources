@@ -169,7 +169,7 @@ class Dm5 extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.dm5.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

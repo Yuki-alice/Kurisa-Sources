@@ -131,7 +131,7 @@ class Migudm extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://migudm.cn/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

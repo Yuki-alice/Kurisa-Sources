@@ -131,7 +131,7 @@ class Zymk extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://m.zymk.cn/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

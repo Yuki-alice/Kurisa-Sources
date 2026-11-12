@@ -131,7 +131,7 @@ class Guomanwang extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.guomanwang.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

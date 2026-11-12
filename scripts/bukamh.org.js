@@ -131,7 +131,7 @@ class Bukamh extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.bukamh.org/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

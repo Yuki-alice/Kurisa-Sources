@@ -131,7 +131,7 @@ class Mh360 extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://m.100fanwo.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

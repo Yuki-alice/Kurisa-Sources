@@ -131,7 +131,7 @@ class Xmanhua extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://xmanhua.com/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }

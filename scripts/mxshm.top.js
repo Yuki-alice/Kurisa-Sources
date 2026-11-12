@@ -131,7 +131,7 @@ class Mxqf extends ComicSource {
     },
     onImageLoad: (url, comicId, epId) => ({
       url: url,
-      headers: { 'Referer': 'https://www.mxshm.top/' }
+      headers: { Referer: this.baseUrl() + '/' }
     })
   };
 }
