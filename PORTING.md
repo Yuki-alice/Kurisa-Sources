@@ -26,7 +26,7 @@
 | dashumanhua.js | 大树漫画 | ✅ 已移植 | `dashumanhua` |
 | dashumanhua2.js | 大树漫画备用 | ➖ 已去重 | 与 dashumanhua 同站 |
 | dingmanhua.js | 丁漫画 | ✅ 已移植 | `dingmanhua` |
-| dm5.js | 动漫屋 | ⬜ 待移植 | — |
+| dm5.js | 动漫屋 | ✅ 已移植 | `dm5.com` |
 | dmzj.js | 动漫之家 | ✅ 已移植 | `dmzj.com` |
 | dogemanga.js | Dogemanga | ✅ 已移植 | `dogemanga` |
 | dumanwu.js | 读漫屋 | ➖ 已去重 | 与 dumanwuorg 同站，保留 https 版 |
@@ -45,7 +45,7 @@
 | ikanmantw.js | 爱看漫繁体 | ⬜ 待移植 | — |
 | jisumh.js | 极速漫画 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | jpm1234.js | JPM1234 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
-| kanman.js | 看漫画 | ⬜ 待移植 | — |
+| kanman.js | 看漫画 | ✅ 已移植 | `kanman.com` |
 | klmanga.js | KL漫画 | ⬜ 待移植 | — |
 | mangabz.js | Mangabz | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | mangaread.js | MangaRead | ⬜ 待移植 | — |
@@ -53,7 +53,7 @@
 | manhuaguitw.js | 漫画柜繁体 | ✅ 已移植 | `manhuaguitw` |
 | manhuatai.js | 漫画台 | ⬜ 待移植 | — |
 | manhuayu.js | 漫画鱼 | ✅ 已移植 | `manhuayu` |
-| mh160.js | 漫画160 | ⬜ 待移植 | — |
+| mh160.js | 漫画160 | ✅ 已移植 | `mh160` |
 | mh36.js | 36漫画 | ⬜ 待移植 | — |
 | mh360.js | 360漫画 | ⬜ 待移植 | — |
 | mh522.js | 522漫画 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |

@@ -662,6 +662,76 @@
       ],
       "sha256": "d5528004bba4719e65d58787a80ca65ba2b8860f9207c01adc1481d3c08ad501",
       "minApp": "1.0.0"
+    },
+    {
+      "key": "dm5.com",
+      "name": "动漫屋",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "m.dm5.com",
+        "www.dm5.com",
+        "cdndm5.com"
+      ],
+      "sha256": "007d189928839f561be0438147ccb81ceb2e49a95452d603e838a666502aafb3",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "kanman.com",
+      "name": "看漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "category",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.kanman.com",
+        "m.kanman.com"
+      ],
+      "sha256": "c0a416e2d5f5ad0edda42551485fe57ca7881b492a757877f7e7dceb61bc6abb",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "mh160",
+      "name": "漫画160",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.mh160mh.com"
+      ],
+      "sha256": "006bf95b02cf7678ce154946400124a3253ebe40c221e6fc1b550e2ccb6b3aa3",
+      "minApp": "1.0.0"
     }
   ]
 }
