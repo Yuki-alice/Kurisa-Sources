@@ -15,7 +15,7 @@
 |---|---|---|---|
 | acg456.js | ACG456 | ⛔ 不支持 | http-only，宿主机 https-only 白名单拒绝 |
 | acgncc.js | ACGN漫画 | ✅ 已移植 | `acgncc` |
-| bainianmh.js | 百年漫画 | ⬜ 待移植 | — |
+| bainianmh.js | 百年漫画 | ✅ 已移植 | `bnman.net` |
 | bainianmh2.js | 百年漫画 | ✅ 已移植 | `bainianmh2` |
 | bilimanga.js | 哔哩哔哩漫画 | ✅ 已移植 | `bilimanga` |
 | bukamh.js | 布卡漫画 | ✅ 已移植 | `bukamh` |
@@ -75,12 +75,12 @@
 | ttkmh.js | 天天看漫画 | ✅ 已移植 | `ttkmh` |
 | u17.js | 有妖气 | ✅ 已移植 | `u17` |
 | xianman123.js | 仙漫网 | ✅ 已移植 | `xianman123` |
-| xmanhua.js | X漫画 | ⬜ 待移植 | — |
-| xmanhua2.js | X漫画备用 | ⬜ 待移植 | — |
+| xmanhua.js | X漫画 | ✅ 已移植 | `xmanhua` |
+| xmanhua2.js | X漫画备用 | ➖ 已去重 | 与 xmanhua 同站 |
 | yibenmanhua.js | 一本漫画 | ✅ 已移植 | `yibenmanhua` |
 | youdm.js | 优动漫 | ✅ 已移植 | `youdm` |
-| yymanhua.js | YY漫画 | ⬜ 待移植 | — |
-| yymanhua2.js | YY漫画备用 | ⬜ 待移植 | — |
+| yymanhua.js | YY漫画 | ➖ 已去重 | 与 yymanhua 同站 |
+| yymanhua2.js | YY漫画备用 | ➖ 已去重 | 与 yymanhua 同站 |
 | zymk.js | 知音漫客 | ✅ 已移植 | `zymk` |
 
 ## 小说（9）

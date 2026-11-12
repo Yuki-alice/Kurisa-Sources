@@ -57,7 +57,7 @@ class Youdm extends ComicSource {
   parseCard(html) {
     const title = Html.text(html, '.title, h3, h4, .book-title') || Html.text(html, 'a');
     const href = Html.attr(html, 'a', 'href') || '';
-    const id = href.split('/').pop().replace('.html', '');
+    const id = href.replace(/\/+$/, '').split('/').pop().replace(/\.html$/, '');
     if (!id || !title) return null;
     return {
       id: id,

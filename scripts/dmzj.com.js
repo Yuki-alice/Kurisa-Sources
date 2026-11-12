@@ -58,7 +58,7 @@ class Dmzj extends ComicSource {
   parseComicCard(html) {
     const link = Html.text(html, 'a');
     const href = Html.attr(html, 'a', 'href') || '';
-    const id = href.split('/').pop().replace('.html', '');
+    const id = href.replace(/\/+$/, '').split('/').pop().replace(/\.html$/, '');
     const title = link || id;
     const cover = this.fixUrl(Html.attr(html, 'img', 'src'));
     if (!id || !title) return null;
