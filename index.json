@@ -4,6 +4,7 @@
     {
       "key": "com.example.v4demo",
       "name": "v4 演示源",
+      "filename": "com.example.v4demo.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -29,6 +30,7 @@
     {
       "key": "mangadex.org",
       "name": "MangaDex",
+      "filename": "mangadex.org.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -50,6 +52,7 @@
     {
       "key": "dmzj.com",
       "name": "动漫之家",
+      "filename": "dmzj.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -72,6 +75,7 @@
     {
       "key": "royalroad.com",
       "name": "RoyalRoad",
+      "filename": "royalroad.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -93,6 +97,7 @@
     {
       "key": "gufengmh.com",
       "name": "古风漫画",
+      "filename": "gufengmh.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -115,6 +120,7 @@
     {
       "key": "haoduoman.com",
       "name": "好多漫画",
+      "filename": "haoduoman.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -140,6 +146,7 @@
     {
       "key": "wnmtl.org",
       "name": "Wnmtl",
+      "filename": "wnmtl.org.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -161,8 +168,9 @@
       "minApp": "1.0.0"
     },
     {
-      "key": "acgncc",
+      "key": "acgn.cc",
       "name": "ACGN漫画",
+      "filename": "acgn.cc.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -179,12 +187,13 @@
       "domains": [
         "comic.acgn.cc"
       ],
-      "sha256": "2a2b1700f846de46351d314e61efe46d4e7d20bd19a8dfc3cc10b0df3c1125ab",
+      "sha256": "6fd725310793abb28bf859f0712842707daaed7cf768bcb8ddbc989bf62d6f6f",
       "minApp": "1.0.0"
     },
     {
-      "key": "bukamh",
+      "key": "bukamh.org",
       "name": "布卡漫画",
+      "filename": "bukamh.org.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -201,12 +210,13 @@
       "domains": [
         "www.bukamh.org"
       ],
-      "sha256": "300c7d1ecb482985813f8f206cbde6627b58f2d7a6d60b6caee6077f0a3b4f3d",
+      "sha256": "9bb89d03000b15ac66d775fefb95d3bf4fed2c1c6b5949ac39a107d2cbaab026",
       "minApp": "1.0.0"
     },
     {
-      "key": "colamanga",
+      "key": "colamanga.com",
       "name": "Colamanga",
+      "filename": "colamanga.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -223,12 +233,13 @@
       "domains": [
         "www.colamanga.com"
       ],
-      "sha256": "a33f4ec1dfdfa191d56af03f16a01c883411f8be1f17455d2426fe0cf058da6d",
+      "sha256": "99a3d9220f469eeb5702a7106fa7ecd7788e9065023103b2e5f080660bfd9c21",
       "minApp": "1.0.0"
     },
     {
-      "key": "dingmanhua",
+      "key": "dingmanhua.com",
       "name": "丁漫画",
+      "filename": "dingmanhua.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -245,12 +256,13 @@
       "domains": [
         "www.dingmanhua.com"
       ],
-      "sha256": "03b49eca7d823723935aeb473ac1adc278ccf881494e024c659a78b286c72515",
+      "sha256": "b72e51132e9e8b940dd67e50ca8ec20c569c13a2145fbaa1780a35a7aaedfddb",
       "minApp": "1.0.0"
     },
     {
-      "key": "dogemanga",
+      "key": "dogemanga.com",
       "name": "Dogemanga",
+      "filename": "dogemanga.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -267,12 +279,13 @@
       "domains": [
         "dogemanga.com"
       ],
-      "sha256": "6baff79fa217cb54397fadb5df2d3538485cecd57687b3c9f0c6fd83ba5d0430",
+      "sha256": "37f49ee851f864806f5b698bd184b9acf94507a56592b130dfed2836cad28327",
       "minApp": "1.0.0"
     },
     {
-      "key": "dumanwuorg",
+      "key": "dumanwu.org",
       "name": "读漫屋",
+      "filename": "dumanwu.org.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -289,34 +302,13 @@
       "domains": [
         "www.dumanwu.org"
       ],
-      "sha256": "bd9ba55d901b35bacec681571c9d8625d8798d08716deb73a0e09ea8212922dd",
+      "sha256": "0e00cad5908fdc3068449e67d030ffaf2a4e276499807967812199c9907242d6",
       "minApp": "1.0.0"
     },
     {
-      "key": "bainianmh2",
-      "name": "百年漫画",
-      "version": "1.0.0",
-      "apiVersion": 4,
-      "kind": [
-        "manga"
-      ],
-      "capabilities": [
-        "search",
-        "comic",
-        "explore",
-        "settings",
-        "htmlHelper",
-        "imageLoad"
-      ],
-      "domains": [
-        "m.bnman.net"
-      ],
-      "sha256": "7ffd51eaa9a04de102a1de0bb885032f85941af7f916d98eaf7b382903936680",
-      "minApp": "1.0.0"
-    },
-    {
-      "key": "dashumanhua",
+      "key": "dashumanhua.com",
       "name": "大树漫画",
+      "filename": "dashumanhua.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -333,12 +325,13 @@
       "domains": [
         "www.dashumanhua.com"
       ],
-      "sha256": "f19960d11741fd48f28d2f7a56d3466e8ddbf43be3eb293099ed7adcf5e54f4b",
+      "sha256": "2fcfca8b6cfacb9ce7f363c1cbd14430371ec6f48916fbaadda38971dfd83023",
       "minApp": "1.0.0"
     },
     {
-      "key": "manhuaguitw",
+      "key": "manhuagui.com",
       "name": "漫画柜繁体",
+      "filename": "manhuagui.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -355,12 +348,13 @@
       "domains": [
         "tw.manhuagui.com"
       ],
-      "sha256": "a9ea31b016c42fc7297fbb0e2c17e2173a320d2829fe651e5d43f9cccd792636",
+      "sha256": "f20b1a32099430feb772133862f5734216040c2721d2d30772bf4c3f9311c6f9",
       "minApp": "1.0.0"
     },
     {
-      "key": "manhuayu",
+      "key": "manhuayu88.com",
       "name": "漫画鱼",
+      "filename": "manhuayu88.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -377,12 +371,13 @@
       "domains": [
         "www.manhuayu88.com"
       ],
-      "sha256": "3f29cbdc9b954cfb2e042d208917a9fd2f9678cfb73967c91dad3e16f2f8cc6f",
+      "sha256": "ab5e0513ec4a30a320c0422419bbe8c7bb03a3a29660dd5635ace57af272383b",
       "minApp": "1.0.0"
     },
     {
-      "key": "migudm",
+      "key": "migudm.cn",
       "name": "咪咕动漫",
+      "filename": "migudm.cn.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -399,12 +394,13 @@
       "domains": [
         "migudm.cn"
       ],
-      "sha256": "7c6a5da94b432af9456d9d19b329493033fa463a75a175e5b3e175ea41f736c1",
+      "sha256": "619afaa3e4329e22210a9428d8a89587f2a51d57362c796cd263517e09e66bba",
       "minApp": "1.0.0"
     },
     {
-      "key": "ttkmh",
+      "key": "ttkmh.com",
       "name": "天天看漫画",
+      "filename": "ttkmh.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -421,12 +417,13 @@
       "domains": [
         "www.ttkmh.com"
       ],
-      "sha256": "1c01b2216d419887e8031a026ea77bb21987f3dfb68978589a1cafa870d7dbb2",
+      "sha256": "47edc9b7a889759a49543e147cdd891cac270741c03824e959d1c3b654163eeb",
       "minApp": "1.0.0"
     },
     {
-      "key": "u17",
+      "key": "u17.com",
       "name": "有妖气",
+      "filename": "u17.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -443,12 +440,13 @@
       "domains": [
         "u17.com"
       ],
-      "sha256": "6ab38f42993cab75b3c4cff6bfdd930c4b68f0a9051aa6c7b656dcf415a7d58c",
+      "sha256": "197a4b95cc0c8bdb5a76cb1ff6ab0eb703f2ef71abc0b93a10a463ffb9a2544b",
       "minApp": "1.0.0"
     },
     {
-      "key": "bilimanga",
+      "key": "bilimanga.net",
       "name": "哔哩哔哩漫画",
+      "filename": "bilimanga.net.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -465,12 +463,13 @@
       "domains": [
         "www.bilimanga.net"
       ],
-      "sha256": "ee2d6534b5aff25ab430e37b509b074fe692fbde276a397dbbcad04c3a6c8dd7",
+      "sha256": "df98bda521bb41a77965e022d3d838c78c5fcbc0e01728523c4f608652413136",
       "minApp": "1.0.0"
     },
     {
-      "key": "cartoonmad",
+      "key": "cartoonmad.com",
       "name": "CartoonMad",
+      "filename": "cartoonmad.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -487,12 +486,13 @@
       "domains": [
         "www.cartoonmad.com"
       ],
-      "sha256": "c3238d7b11b423fb4f65891449d1a5e38b617962e7dff1ddbaeba3d6f5044d01",
+      "sha256": "bf8234013e5904eed7e5174e064ae2907b9a003103524189b88f9622153cc1fc",
       "minApp": "1.0.0"
     },
     {
-      "key": "feixuemh",
+      "key": "feixuemh.com",
       "name": "飞雪漫画",
+      "filename": "feixuemh.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -509,12 +509,13 @@
       "domains": [
         "www.feixuemh.com"
       ],
-      "sha256": "3f0531578532163852f0dad36cd6a334e975083e98ddc93a5ce322bc515155f7",
+      "sha256": "99c4e9796bb258eaaf6ec1bfc7b805609173702c1fc5abc7fb9c82dc003d5999",
       "minApp": "1.0.0"
     },
     {
-      "key": "guomanwang",
+      "key": "guomanwang.com",
       "name": "国漫网",
+      "filename": "guomanwang.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -531,12 +532,13 @@
       "domains": [
         "www.guomanwang.com"
       ],
-      "sha256": "eb1da8e05baa15d897c6c5c05c86431dfb2f6a0544277232cbe5c8a783559eb5",
+      "sha256": "c6d7b7b3acff26ed752a8d03cfb1153e9565e893a2ecbc7b7039bf4d72d11992",
       "minApp": "1.0.0"
     },
     {
-      "key": "hhxxee",
+      "key": "hhxxee.com",
       "name": "HHXXEE",
+      "filename": "hhxxee.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -553,12 +555,13 @@
       "domains": [
         "www.hhxxee.com"
       ],
-      "sha256": "30a6f7d79f47d0c767cac233846f108d67b1adb3127fd878eb0d199a26f21044",
+      "sha256": "72b760cbc230bd4fb2d560e65eafe57a75c73796c86f638f8855b47404ffb97e",
       "minApp": "1.0.0"
     },
     {
       "key": "bqg.cc",
       "name": "笔趣阁",
+      "filename": "bqg.cc.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -580,6 +583,7 @@
     {
       "key": "mydramanovel.com",
       "name": "MyDramaNovel",
+      "filename": "mydramanovel.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -602,6 +606,7 @@
     {
       "key": "mfxs.www493d",
       "name": "免费小说网",
+      "filename": "mfxs.www493d.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -623,6 +628,7 @@
     {
       "key": "tangthuvien.vn",
       "name": "Tàng thư viện",
+      "filename": "tangthuvien.vn.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -642,8 +648,9 @@
       "minApp": "1.0.0"
     },
     {
-      "key": "wtr-lab.com",
+      "key": "wtr_lab.com",
       "name": "WTR-LAB",
+      "filename": "wtr_lab.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -660,12 +667,13 @@
         "wtr-lab.com",
         "www.wtr-lab.com"
       ],
-      "sha256": "d5528004bba4719e65d58787a80ca65ba2b8860f9207c01adc1481d3c08ad501",
+      "sha256": "1e4ef45d00bfbd489260d0d92ead29e34d4168d738c9625f32fba3102001457b",
       "minApp": "1.0.0"
     },
     {
       "key": "dm5.com",
       "name": "动漫屋",
+      "filename": "dm5.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -690,6 +698,7 @@
     {
       "key": "kanman.com",
       "name": "看漫画",
+      "filename": "kanman.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -712,8 +721,9 @@
       "minApp": "1.0.0"
     },
     {
-      "key": "mh160",
+      "key": "mh160mh.com",
       "name": "漫画160",
+      "filename": "mh160mh.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -730,12 +740,13 @@
       "domains": [
         "www.mh160mh.com"
       ],
-      "sha256": "22839f6d56ba248e28bed9c0077758a3a3ace9ab3af136aedd1a4181a48800a9",
+      "sha256": "b0b040ccd2932a784d8aa8d6b17e429bb054349278da4c8da69e0dd2ad8d8c12",
       "minApp": "1.0.0"
     },
     {
-      "key": "klmanga",
+      "key": "klmanga.com",
       "name": "KL漫画",
+      "filename": "klmanga.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -752,12 +763,13 @@
       "domains": [
         "klmanga.com"
       ],
-      "sha256": "a271f3943f0ae1973d485a8cb37a9a78a007d8d1fd7fc81fd5ca13b56c454c6c",
+      "sha256": "2ef754df05a897b8ca93d35298439ddee839d85a4ce557a5513c8e0375966d43",
       "minApp": "1.0.0"
     },
     {
-      "key": "mangaread",
+      "key": "mangaread.org",
       "name": "MangaRead",
+      "filename": "mangaread.org.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -774,12 +786,13 @@
       "domains": [
         "www.mangaread.org"
       ],
-      "sha256": "7788ca9c109d164ab6d5c8307f09991a06054c7a2a46a0d330d80b68c63e3acb",
+      "sha256": "7d44fc051bd615f9ec13e5cb3d00c0dacc5d1c88a7ebfaf09bdeecea06f6ea59",
       "minApp": "1.0.0"
     },
     {
-      "key": "manhuadb",
+      "key": "manhua666.cc",
       "name": "漫画DB",
+      "filename": "manhua666.cc.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -796,12 +809,13 @@
       "domains": [
         "www.manhua666.cc"
       ],
-      "sha256": "ae63c751c6d37dc050ab92eca1d305fbfc46ad57e4ddebd71597042dcd761a55",
+      "sha256": "f9124728016dbc07d7a8947514c7a4ac1578db2aeccd034760c933fd93037151",
       "minApp": "1.0.0"
     },
     {
-      "key": "mh360",
+      "key": "mh360.site",
       "name": "360漫画",
+      "filename": "mh360.site.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -818,12 +832,13 @@
       "domains": [
         "m.100fanwo.com"
       ],
-      "sha256": "38ff9d16776d6b125d912f10c2e925c657d9b8771c423240ee6f840019cd6ef8",
+      "sha256": "45053ea3d8d75400b3aa6e74540346c57df710b7bb5af54de54df1502d308632",
       "minApp": "1.0.0"
     },
     {
-      "key": "mkzhan",
+      "key": "mkzhan.com",
       "name": "快看漫画",
+      "filename": "mkzhan.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -840,34 +855,13 @@
       "domains": [
         "comic.mkzhan.com"
       ],
-      "sha256": "fcef5133aac75a1e761364da969516356fc79045f632edc358ede527cb74ae75",
+      "sha256": "f3319f216d7719e36dd1268f282f8439fae93843098636ce9e8d28b06e59d91b",
       "minApp": "1.0.0"
     },
     {
-      "key": "mkzhanw",
-      "name": "MKZHANW",
-      "version": "1.0.0",
-      "apiVersion": 4,
-      "kind": [
-        "manga"
-      ],
-      "capabilities": [
-        "search",
-        "comic",
-        "explore",
-        "settings",
-        "htmlHelper",
-        "imageLoad"
-      ],
-      "domains": [
-        "www.mkzhan.com"
-      ],
-      "sha256": "e6dd1b015eb2d6e3f50bdfbd2692483cb193ebe65ce4893a935fc094d8e81fd7",
-      "minApp": "1.0.0"
-    },
-    {
-      "key": "mumumh",
+      "key": "mumumh.com",
       "name": "梦游漫画",
+      "filename": "mumumh.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -884,12 +878,13 @@
       "domains": [
         "www.mumumh.com"
       ],
-      "sha256": "7e8429f026ebc7304c5859e66b74ad3e838d690e620fe52219f8c864ee68806e",
+      "sha256": "e905af735dbf9753525851e15adce3d08a486e217870f5f65be42eaceccc851a",
       "minApp": "1.0.0"
     },
     {
-      "key": "mxqf",
+      "key": "mxshm.top",
       "name": "MX趣",
+      "filename": "mxshm.top.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -906,12 +901,13 @@
       "domains": [
         "www.mxshm.top"
       ],
-      "sha256": "8d0c7528d2985ea767f14af482223728efdf4ec4c366f6decce517b49b729eff",
+      "sha256": "612cea5c011e597086405d7c2a84f6f32dc6faf990fbf5d4c37d5788b9c570c6",
       "minApp": "1.0.0"
     },
     {
-      "key": "qimanwu",
+      "key": "qimanwu.org",
       "name": "奇漫画",
+      "filename": "qimanwu.org.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -928,12 +924,13 @@
       "domains": [
         "www.qimanwu.org"
       ],
-      "sha256": "1fc6af1c70c30dd6f9b82c4395e250c1dcbae5328183c608a6e95680589aef4e",
+      "sha256": "50b275b033555ef19f832478d0cc538850eee7c4694000b078f7d8e6343a571e",
       "minApp": "1.0.0"
     },
     {
-      "key": "qimiaomh",
+      "key": "qimiaomh.com",
       "name": "奇妙漫画",
+      "filename": "qimiaomh.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -950,12 +947,13 @@
       "domains": [
         "www.qimiaomh.com"
       ],
-      "sha256": "26aa332fdaeccfcc602a3305510be05cdb3251a3b15d8b7c6384645588a9a102",
+      "sha256": "45a5588a5f8117fde8fc9271be0d4129437595bae0b9aa62b77152517ac782d7",
       "minApp": "1.0.0"
     },
     {
-      "key": "roumh",
+      "key": "roumh.com",
       "name": "Rou韩漫",
+      "filename": "roumh.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -972,12 +970,13 @@
       "domains": [
         "m.roumh.com"
       ],
-      "sha256": "c0edac6db987c5f8c9ba6b0a5d687f123309423ea246e81cca01b98c0997640e",
+      "sha256": "81a106b8546eb8b9a6c080573d6e9b9c4bc6c88ba8544de55e0b27212cae490f",
       "minApp": "1.0.0"
     },
     {
-      "key": "sfacg",
+      "key": "sfacg.com",
       "name": "SF轻小说",
+      "filename": "sfacg.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -994,12 +993,13 @@
       "domains": [
         "mm.sfacg.com"
       ],
-      "sha256": "1896cbc40afd5f208964a6c5b4c088da7169b200f341dde0aca61c1725fab5aa",
+      "sha256": "458258d3ff746d890896c5c60409f80fdb7f91360da0ebe4dbcf8f0850a26c2d",
       "minApp": "1.0.0"
     },
     {
-      "key": "sisimanhua",
+      "key": "sisimanhua.com",
       "name": "西西漫画",
+      "filename": "sisimanhua.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1016,12 +1016,13 @@
       "domains": [
         "m.sisimanhua.com"
       ],
-      "sha256": "b9e23d60ce9b93652042fff924064a31f716f5c73d05310f6ee87b4e9fcbf93c",
+      "sha256": "f15bba8f5357c389dc8b5a51fbfc4917b48c0da0e3b099dffaa34f2163b00a89",
       "minApp": "1.0.0"
     },
     {
-      "key": "xianman123",
+      "key": "xianman123.com",
       "name": "仙漫网",
+      "filename": "xianman123.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1038,12 +1039,13 @@
       "domains": [
         "www.xianman123.com"
       ],
-      "sha256": "2afeab4d654a5995870e90316ba5194e1bb31b192d33318aed84bc2b54eee204",
+      "sha256": "0b5c837dfe4a56e45688548572ae515132f03abdfcf42a490617acb88632ddf1",
       "minApp": "1.0.0"
     },
     {
-      "key": "yibenmanhua",
+      "key": "yibenmanhua.com",
       "name": "一本漫画",
+      "filename": "yibenmanhua.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1060,12 +1062,13 @@
       "domains": [
         "www.yibenmanhua.com"
       ],
-      "sha256": "a44b50da2802ada5c67fad0570c0002d2535d59ff0fa56aa8af2a523792bb2c9",
+      "sha256": "83af801594c433d6fd4e7619baa4cccbe9dd7936b0ff3f203dbff400aef384a5",
       "minApp": "1.0.0"
     },
     {
-      "key": "youdm",
+      "key": "udm123.com",
       "name": "优动漫",
+      "filename": "udm123.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1082,12 +1085,13 @@
       "domains": [
         "www.udm123.com"
       ],
-      "sha256": "4d1be6e48f39df91fa9c9bd50f4fcb4ff9831a67017e241b39e0e3476a7d7dde",
+      "sha256": "e8c8755425f92f4ed2154fa47a89be5df38faf8157d08b0181c937770ef262be",
       "minApp": "1.0.0"
     },
     {
-      "key": "zymk",
+      "key": "zymk.cn",
       "name": "知音漫客",
+      "filename": "zymk.cn.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1104,12 +1108,13 @@
       "domains": [
         "m.zymk.cn"
       ],
-      "sha256": "12cbc89d0e9450ee2499c1c16d960b7ec6d31bbfdd81772758cabc5e4995e6c0",
+      "sha256": "e1ac7a777a80d937113b6224ca0f588c75b6d7bd2e38b12cc1fbee3b9ed1e6e5",
       "minApp": "1.0.0"
     },
     {
-      "key": "mh36",
+      "key": "mh36.site",
       "name": "36漫画",
+      "filename": "mh36.site.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1126,12 +1131,13 @@
       "domains": [
         "www.36mh.org"
       ],
-      "sha256": "5306bc3cd24cc948fc4f70cdc490f9c612b596acbd7d609962c879bf7e090582",
+      "sha256": "db67fc51ef325f0b690bfd4d5773ca2917236d57ef7772f640ffe4debc6cf319",
       "minApp": "1.0.0"
     },
     {
       "key": "bnman.net",
       "name": "百年漫画",
+      "filename": "bnman.net.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1156,8 +1162,9 @@
       "minApp": "1.0.0"
     },
     {
-      "key": "xmanhua",
+      "key": "xmanhua.com",
       "name": "X漫画",
+      "filename": "xmanhua.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1174,12 +1181,13 @@
       "domains": [
         "xmanhua.com"
       ],
-      "sha256": "3faaf1f1557d64f3429076cbfdb26f2b6e70ec7e3918ad6b8ef25aeb33d916ec",
+      "sha256": "185b9cd77d65266108c8a063ece322135372eee9f88e26c68757c14d18d3585c",
       "minApp": "1.0.0"
     },
     {
-      "key": "yymanhua",
+      "key": "yymanhua.com",
       "name": "YY漫画",
+      "filename": "yymanhua.com.js",
       "version": "1.0.0",
       "apiVersion": 4,
       "kind": [
@@ -1196,7 +1204,7 @@
       "domains": [
         "www.yymanhua.com"
       ],
-      "sha256": "f1b7cf69a9cd0c029493a0621e62b918531202a43233adcc95fb59cfd53ac49c",
+      "sha256": "dd0fd50d6f9beb9a00e8970b0f0777302c068bd9d8907aa47c0068da3e26966a",
       "minApp": "1.0.0"
     }
   ]
