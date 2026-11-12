@@ -159,6 +159,138 @@
       ],
       "sha256": "ea891bbb2d3932e5d67c7c07a963788c01c0e7ea8ad9663c7b68469a7f488523",
       "minApp": "1.0.0"
+    },
+    {
+      "key": "acgncc",
+      "name": "ACGN漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "comic.acgn.cc"
+      ],
+      "sha256": "8a6e182889cf6d00270b10c88ba768310ed1174405f06a3a2b6aa4c72358749b",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "bukamh",
+      "name": "布卡漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.bukamh.org"
+      ],
+      "sha256": "8f698cc8d8f5156c29d4330fdb0c7444072e6aa9df46a9aebd7ca5dd64608621",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "colamanga",
+      "name": "Colamanga",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.colamanga.com"
+      ],
+      "sha256": "f5a1e2495adccf65a4ae081edc09338250755a641ac819f45a7871ef06f9935d",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "dingmanhua",
+      "name": "丁漫画",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.dingmanhua.com"
+      ],
+      "sha256": "0af4eef549bb23aa1f26995c02c841dedaaa2da03f6c3b774e7bb5c45ae7f32b",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "dogemanga",
+      "name": "Dogemanga",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "dogemanga.com"
+      ],
+      "sha256": "6593820f333878f5de800a42eaa008077aeaa726001efa00d8d80b45fea49b05",
+      "minApp": "1.0.0"
+    },
+    {
+      "key": "dumanwuorg",
+      "name": "读漫屋",
+      "version": "1.0.0",
+      "apiVersion": 4,
+      "kind": [
+        "manga"
+      ],
+      "capabilities": [
+        "search",
+        "comic",
+        "explore",
+        "settings",
+        "htmlHelper",
+        "imageLoad"
+      ],
+      "domains": [
+        "www.dumanwu.org"
+      ],
+      "sha256": "c873575593ab4398d4cd4dc9d903dda59a7e08b854d8da1b4297c768a78253de",
+      "minApp": "1.0.0"
     }
   ]
 }
