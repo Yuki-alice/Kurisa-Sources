@@ -14,7 +14,12 @@
   才可转 rules（示例见 `scripts/royalroad.com.rules.json`）。
 - `scripts/_template.source.js`：唯一新源模板（漫画/小说二选一，删段即得；apiVersion 4）。
 - `index.json`：源索引（`filename` 与 `format` 必填；sha256 与文件字节一致）。
-- `index.schema.json`：索引结构校验（与引擎 `ContractPolicy.validateIndex` 对齐）。
+- `index.schema.json`：统一契约 v2，**与主仓 `docs/contract/index-schema.json` 逐字同一份**
+  （主仓 `SourcesRepoContractTest.sourcesRepoSchemaMatchesMainContract` 会校验两者不漂移）。
+  顶层 `version` 与 `apiVersion` 二选一、条目 `url` 与 `filename` 二选一，能力枚举必须覆盖
+  Kotlin `SourceCapability` 全量（含 v4 的 `video`/`audio`）。
+- `.gitattributes`：脚本与索引强制 `eol=lf`。**sha256 按 UTF-8 + LF 字节计算**，Windows 上
+  若被 `core.autocrlf` 转成 CRLF，`npm test` 会全量报「sha256 与脚本字节不一致」。
 - `tools/`：本地门禁（零依赖，Node 20+）：`npm test` 全量校验，`npm run index` 预览索引变更。
 
 > 信任模型说明：本仓库当前无签名机制（Miru 式：信任 = 仓库本身 + PR 评审）。

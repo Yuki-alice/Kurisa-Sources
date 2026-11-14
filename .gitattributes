@@ -1,0 +1,8 @@
+# 源文件与索引的 sha256 是按「UTF-8 + LF 单字节序列」计算的，
+# 因此这些文件在检出时必须保持 LF，禁止 autocrlf 转成 CRLF（否则 npm test 在 Windows 上全红）。
+*.js            text eol=lf
+*.rules.json    text eol=lf
+*.json          text eol=lf
+*.md            text eol=lf
+*.yml           text eol=lf
+.gitattributes  text eol=lf

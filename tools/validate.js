@@ -10,7 +10,9 @@
  *  3. INDEX    index.json 条目合法性 == ContractPolicy.validateIndex；
  *              文件↔索引一致性 == SourcesRepoContractTest（key/版本/kind/sha256/文件名/去重），
  *              另加：format 与文件形态一致、kind/domains/capabilities 与头块一致。
- *  4. SCHEMA   index.schema.json 自检（本仓索引必须通过）。
+ *  4. SCHEMA   index.schema.json == 主仓 docs/contract/index-schema.json（同一份统一契约 v2），
+ *              并自检顶层版本字段 / 条目 required / url-filename 二选一 / format 与能力枚举。
+ *              注意：这些文件必须保持 LF，sha256 按 LF 字节计算（见 .gitattributes）。
  *  5. SCAN     静态扫描 == SourceStaticScan.scan / scanRules（阈值逐字照搬）；
  *              另：v4 strict 下 GBK/RSA 为硬错；new HtmlDocument 为警告（统一用 Html.*）；
  *              init 内网络调用为硬错（v4 无状态约束）。
@@ -306,13 +308,38 @@ if (index && Array.isArray(index.sources)) {
 
 try {
   const schema = JSON.parse(read(SCHEMA));
-  const req = (((schema.properties || {}).sources || {}).items || {}).required || [];
-  for (const field of ['key', 'name', 'version', 'apiVersion', 'kind', 'domains', 'sha256', 'filename']) {
-    if (!req.includes(field)) warn('index.schema.json', `建议 required 包含 ${field}（与引擎 validateIndex 对齐）`);
+  const rootProps = schema.properties || {};
+  // 统一契约 v2：顶层 apiVersion 与旧仓 version 二者至少声明一个。
+  if (!rootProps.apiVersion && !rootProps.version) {
+    err('index.schema.json', '顶层需声明 apiVersion 或 version');
   }
-  const fmtEnum = (((((schema.properties || {}).sources || {}).items || {}).properties || {}).format || {}).enum || [];
+  const item = (rootProps.sources || {}).items || {};
+  const req = item.required || [];
+  // 只锁三条真正影响安装的必填项；apiVersion/kind/domains/sha256 由下方 INDEX 段逐条校验，
+  // 不再要求写进 required——统一契约允许条目继承顶层 apiVersion、且 url/filename 二选一。
+  for (const field of ['key', 'name', 'version']) {
+    if (!req.includes(field)) err('index.schema.json', `required 必须包含 ${field}（与引擎 validateIndex 对齐）`);
+  }
+  const oneOf = item.oneOf || [];
+  const hasFilename = oneOf.some((c) => (c.required || []).includes('filename'));
+  const hasUrl = oneOf.some((c) => (c.required || []).includes('url'));
+  if (!hasFilename || !hasUrl) {
+    err('index.schema.json', '条目需以 oneOf 声明 url/filename 二选一');
+  }
+  const itemProps = item.properties || {};
+  const fmtEnum = (itemProps.format || {}).enum || [];
   if (!fmtEnum.includes('js/v1') || !fmtEnum.includes('rules/v1')) {
-    warn('index.schema.json', '建议 format 声明 enum [js/v1, rules/v1]');
+    err('index.schema.json', 'format 需声明 enum [js/v1, rules/v1]');
+  }
+  // 能力枚举必须覆盖 Kotlin SourceCapability 全量（含 v4 的 video/audio），否则 schema 比引擎保守。
+  const capEnum = ((itemProps.capabilities || {}).items || {}).enum || [];
+  const missingCaps = [...CAPABILITIES].filter((c) => !capEnum.includes(c));
+  if (missingCaps.length) {
+    err('index.schema.json', `capabilities 枚举缺 ${missingCaps.join(',')}（与 SourceCapability 不一致）`);
+  }
+  const kindEnum = ((itemProps.kind || {}).items || {}).enum;
+  if (kindEnum && ![...KINDS].every((k) => kindEnum.includes(k))) {
+    warn('index.schema.json', 'kind 枚举建议覆盖 manga/novel/video/audio');
   }
 } catch (e) {
   err('index.schema.json', `解析失败：${e.message}`);
